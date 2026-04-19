@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { ProductCard } from '@/src/components/ProductCard';
 import { PRODUCTS, BUSINESS_NAME, BUSINESS_TAGLINE } from '@/src/constants';
 import { motion } from 'motion/react';
-import { ArrowRight, Star, ShieldCheck, Truck } from 'lucide-react';
+import { ArrowRight, Bed, Droplets, ShieldCheck } from 'lucide-react';
 
 export function Home() {
   const featuredProducts = PRODUCTS.slice(0, 3);
@@ -59,24 +59,24 @@ export function Home() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
             <div className="flex flex-col items-center text-center space-y-4">
               <div className="rounded-full bg-accent/10 p-4">
-                <Star className="h-8 w-8 text-accent" />
+                <Bed className="h-8 w-8 text-accent" />
               </div>
-              <h3 className="font-serif text-2xl font-semibold text-primary">Premium Quality</h3>
-              <p className="text-muted-foreground">We source only the finest materials for our curtains, bedding, and rugs.</p>
+              <h3 className="font-serif text-2xl font-semibold text-primary">Bedsheets</h3>
+              <p className="text-muted-foreground">Premium quality bedsheets in all colours to match your style and comfort.</p>
+            </div>
+            <div className="flex flex-col items-center text-center space-y-4">
+              <div className="rounded-full bg-accent/10 p-4">
+                <Droplets className="h-8 w-8 text-accent" />
+              </div>
+              <h3 className="font-serif text-2xl font-semibold text-primary">Bathroom Mats</h3>
+              <p className="text-muted-foreground">Soft, absorbent, and stylish mats for your bathroom comfort and safety.</p>
             </div>
             <div className="flex flex-col items-center text-center space-y-4">
               <div className="rounded-full bg-accent/10 p-4">
                 <ShieldCheck className="h-8 w-8 text-accent" />
               </div>
-              <h3 className="font-serif text-2xl font-semibold text-primary">Trusted Service</h3>
-              <p className="text-muted-foreground">Years of experience in helping customers beautify their homes in Kiambu.</p>
-            </div>
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="rounded-full bg-accent/10 p-4">
-                <Truck className="h-8 w-8 text-accent" />
-              </div>
-              <h3 className="font-serif text-2xl font-semibold text-primary">Fast Delivery</h3>
-              <p className="text-muted-foreground">Reliable delivery services across the region to get your orders to you quickly.</p>
+              <h3 className="font-serif text-2xl font-semibold text-primary">Mattress Covers</h3>
+              <p className="text-muted-foreground">Durable and comfortable covers to protect and enhance your mattress life.</p>
             </div>
           </div>
         </div>

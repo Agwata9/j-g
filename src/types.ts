@@ -2,7 +2,7 @@ export interface Product {
   id: string;
   name: string;
   price: number;
-  category: 'Curtains' | 'Bedding' | 'Rugs';
+  category: 'Bedsheets' | 'Bathroom Mats' | 'Mattress Covers';
   image: string;
   description: string;
 }

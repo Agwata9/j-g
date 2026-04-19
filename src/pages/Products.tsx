@@ -5,13 +5,13 @@ import { Button } from '@/components/ui/button';
 import { motion } from 'motion/react';
 
 export function Products() {
-  const [filter, setFilter] = useState<'All' | 'Curtains' | 'Bedding' | 'Rugs'>('All');
+  const [filter, setFilter] = useState<'All' | 'Bedsheets' | 'Bathroom Mats' | 'Mattress Covers'>('All');
 
   const filteredProducts = filter === 'All' 
     ? PRODUCTS 
     : PRODUCTS.filter(p => p.category === filter);
 
-  const categories = ['All', 'Curtains', 'Bedding', 'Rugs'] as const;
+  const categories = ['All', 'Bedsheets', 'Bathroom Mats', 'Mattress Covers'] as const;
 
   return (
     <div className="container mx-auto px-4 py-16">
