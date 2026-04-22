@@ -21,7 +21,7 @@ export function Contact() {
   };
 
   const handleWhatsApp = () => {
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
+    window.open(`https://wa.me/${+254721797277}`, '_blank');
   };
 
   return (
@@ -63,7 +63,7 @@ export function Contact() {
               <CardContent className="p-6 flex flex-col items-center text-center space-y-3">
                 <Phone className="h-8 w-8 text-accent" />
                 <h3 className="font-semibold">Phone</h3>
-                <p className="text-sm text-muted-foreground">+254 700 000 000</p>
+                <p className="text-sm text-muted-foreground">+2547 2179 7277</p>
               </CardContent>
             </Card>
             <Card className="bg-secondary/20 border-none">
