@@ -14,7 +14,7 @@ export const PRODUCTS: Product[] = [
     name: 'Bedsheets (4 by 6)',
     price: 1400,
     category: 'Bedsheets',
-    image: '/images/sheet_1.png',
+    image: '/images/sheet_1.jpg',
     description: 'Premium striped bedsheets in all colours. Soft, breathable, and elegant. Size: 4 by 6.',
   },
   {
@@ -22,7 +22,7 @@ export const PRODUCTS: Product[] = [
     name: 'Bedsheets (5 by 6)',
     price: 1600,
     category: 'Bedsheets',
-    image: '/images/sheet_2.png',
+    image: '/images/sheet_2.jpg',
     description: 'Premium striped bedsheets in all colours. Soft, breathable, and elegant. Size: 5 by 6.',
   },
   {
@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
     name: 'Bedsheets (6 by 6)',
     price: 1800,
     category: 'Bedsheets',
-    image: '/images/sheet_3.png',
+    image: '/images/sheet_3.jpg',
     description: 'Premium striped bedsheets in all colours. Soft, breathable, and elegant. Size: 6 by 6.',
   },
   // Bathroom Mats
@@ -39,7 +39,7 @@ export const PRODUCTS: Product[] = [
     name: 'Standard Bathroom Mat',
     price: 800,
     category: 'Bathroom Mats',
-    image: '/images/matt_1.png',
+    image: '/images/matt_1.jpg',
     description: 'Reliable and functional textured bathroom mat for everyday use.',
   },
   {
@@ -47,7 +47,7 @@ export const PRODUCTS: Product[] = [
     name: 'Premium Bathroom Mat',
     price: 1200,
     category: 'Bathroom Mats',
-    image: '/images/matt_2.png',
+    image: '/images/matt_2.jpg',
     description: 'Soft and absorbent textured bathroom mat for a touch of luxury.',
   },
   {
@@ -55,7 +55,7 @@ export const PRODUCTS: Product[] = [
     name: 'Executive Bathroom Mat',
     price: 4000,
     category: 'Bathroom Mats',
-    image: '/images/matt_3.png',
+    image: '/images/matt_3.jpg',
     description: 'The ultimate in bathroom luxury. Thick, plush, and extremely durable textured mat.',
   },
   // Mattress Covers
@@ -64,7 +64,7 @@ export const PRODUCTS: Product[] = [
     name: 'Mattress Cover (4 by 6)',
     price: 1800,
     category: 'Mattress Covers',
-    image: '/images/cover_1.png',
+    image: '/images/cover_1.jpg',
     description: 'Durable quilted mattress cover. Waterproof, soft, and protects your mattress. Size: 4 by 6.',
   },
   {
@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
     name: 'Mattress Cover (5 by 6)',
     price: 2200,
     category: 'Mattress Covers',
-    image: '/images/cover_2.png',
+    image: '/images/cover_2.jpg',
     description: 'Durable quilted mattress cover. Waterproof, soft, and protects your mattress. Size: 5 by 6.',
   },
   {
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     name: 'Mattress Cover (6 by 6)',
     price: 2500,
     category: 'Mattress Covers',
-    image: '/images/cover_3.png',
+    image: '/images/cover_3.jpg',
     description: 'Durable quilted mattress cover. Waterproof, soft, and protects your mattress. Size: 6 by 6.',
   },
 ];
