@@ -1,3 +1,5 @@
+/// <reference types="react" />
+
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, ShoppingBag } from 'lucide-react';
 import { BUSINESS_NAME, BUSINESS_TAGLINE, BUSINESS_LOCATION, NAV_ITEMS } from '@/src/constants';
